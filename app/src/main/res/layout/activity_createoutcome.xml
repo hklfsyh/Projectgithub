@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateOutcomeActivity"
+    android:orientation="vertical"
+    android:background="@color/putih">
+
+    <TextView
+        android:id="@+id/outcometeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Nominal Uang Keluar"
+        android:textSize="18sp"
+        android:textColor="@color/hitam"/>
+
+    <EditText
+        android:id="@+id/outcomeuangkeluar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_bglayout"
+        android:hint="  Masukkan nominal uang"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/outcometanggalteks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Tanggal Uang Keluar"
+        android:textSize="18sp"
+        android:textColor="@color/hitam"/>
+
+    <EditText
+        android:id="@+id/outcomeuangtanggal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_bglayout"
+        android:hint="  Masukkan tanggal manual"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/outcomeketeranganteks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Keterangan Uang Keluar"
+        android:textSize="18sp"
+        android:textColor="@color/hitam"/>
+
+    <EditText
+        android:id="@+id/outcomeuangketerangan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_bglayout"
+        android:hint="  Masukkan keterangan"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/outcomedescriptionteks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Status (otomatis)"
+        android:textSize="18sp"
+        android:textColor="@color/hitam"/>
+
+    <EditText
+        android:id="@+id/outcomeuangdescription"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_bglayout"
+        android:text="  KELUAR"
+        android:textAllCaps="true"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/style_button"
+            android:id="@+id/buttonsimpanoutcome"
+            android:text="Simpan"
+            android:textColor="@color/putih"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
