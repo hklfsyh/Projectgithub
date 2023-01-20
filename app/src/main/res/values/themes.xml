@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sakabookujicoba" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/putih</item>
+        <item name="colorPrimaryVariant">@color/putih</item>
+        <item name="colorOnPrimary">@color/putih</item>
+        <item name="android:colorFocusedHighlight">@color/hijau</item>
+    </style>
+
+    <style name="Action.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Action.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="Action.AppPopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

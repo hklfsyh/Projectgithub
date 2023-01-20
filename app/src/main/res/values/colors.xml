@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hitam">#000000</color>
+    <color name="hijau">#26946f</color>
+    <color name="merah">#cd4441</color>
+    <color name="kuning">#c59a4d</color>
+    <color name="kuningkopi">#846435</color>
+    <color name="coklat">#583c16</color>
+    <color name="ungu">#754d96</color>
+    <color name="ungutua">#3f264e</color>
+    <color name="indigo">#291139</color>
+    <color name="putih">#ffffff</color>
+    <color name="abuikon">#989898</color>
+    <color name="abuteks">#6b6b6b</color>
+    <color name="abubackground">#1f1f1f</color>
+</resources>
